@@ -292,7 +292,7 @@ Platform Engineering Team
 Email: (mailto:samdoinndev@gmail.com)**
 <div align="center">
   <img height="160" src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" />
-  <h1>📝 TaskNest — Where Ideas Turn Into Action</h1>
+  <h1>📝 samified — Where Ideas Turn Into Action</h1>
   <h3>Plan Smarter • Stay Organized • Achieve More</h3>
 </div>
 
