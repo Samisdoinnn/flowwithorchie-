@@ -7,11 +7,7 @@
 <div align="center">
   <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
-<div align="center">
-  <img height="160" src="https://via.placeholder.com/300x160?text=Cartoon+TaskFlow" />
-  <h1>🚀 TaskFlow — Modern Task Management App</h1>
-  <h3>Streamline Your Workflow • Organize Tasks • Boost Productivity</h3>
-</div>
+
 
 
 FlowOrchestrator is a **developer-first visual builder** for durable distributed automation powered by **Temporal.io**. It allows technical teams to create, observe, and collaborate on complex workflows combining AI pipelines, SaaS integrations, human approvals, and compensation logic — all with production-grade reliability and SRE-style debugging.
