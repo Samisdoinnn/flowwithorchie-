@@ -3,11 +3,10 @@
 # 🚀 FlowOrchestrator — Visual Workflow Automation Control Plane
 
 **Enterprise Edition (v2.0)**
-
 <div align="center">
-  <img height="150" src="<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/d7edec1c-b74e-43db-81d4-dfaa7469407e" />
-" alt="Coding Code GIF" />
+  <img height="150" src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" alt="Developer Typing GIF" />
 </div>
+
 
 
 
