@@ -5,7 +5,7 @@
 **Enterprise Edition (v2.0)**
 
 <div align="center">
-  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+  <img height="150" src="https://media.giphy.com/media/3o7qE1YN7aBOFPRw8E/giphy.gif" alt="Coding Code GIF" />
 </div>
 
 
