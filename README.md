@@ -128,3 +128,59 @@ temporal server start-dev
 # 3️⃣ Run apps
 npm run dev:backend
 npm run dev:frontend
+
+📂 Project Structure
+flow-orchestrator/
+├─ frontend/        # React Flow + Yjs Editor
+├─ backend/         # NestJS REST + WS Gateway
+├─ workers/         # Python AI + Temporal activities
+├─ docs/            # Architecture & guides
+└─ infra/           # K8s deployments & Helm charts
+
+📈 Status & Roadmap
+Item	Status
+Visual Workflow Editor	🔄 In Progress
+Observability Console	🔄 In Progress
+Node Marketplace	⏳ Planned
+SaaS Integration Packs	⏳ Planned
+
+📌 Detailed roadmap → /docs/ROADMAP.md
+
+🧪 MVP Definition
+
+Create + version workflows
+
+Execute & display real-time traces
+
+Human approval pauses/resumes workflow
+
+CRDT live collaboration
+
+Retry & compensation flows
+
+OAuth2 secure credential vault
+
+🚨 Risks & Mitigations
+Risk	Mitigation
+Large graph performance	Virtual DOM + memo + viewports
+Sync overload	WS backpressure + chunking
+Worker failures	Retry/backoff + DLQ + autoscale
+Token leakage	Encrypted secrets + rotation policy
+🤝 Contributing
+
+We welcome PRs!
+Please read our guidelines first:
+
+📄 CONTRIBUTING.md
+
+📜 License
+
+Distributed under the Apache 2.0 License
+📎 See LICENSE
+
+<div align="center">
+🌐 Build Automation That Must Not Fail
+
+If you like this project, please give us a ⭐ on GitHub!
+
+</div> ```
