@@ -6,6 +6,9 @@ Absolutely — here is a **single**, **fully-compact**, **copy-paste-ready** REA
 
 **Enterprise Edition (v2.0)**
 
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
+</div>
 FlowOrchestrator is a **developer-first visual builder** for durable distributed automation powered by **Temporal.io**. It allows technical teams to create, observe, and collaborate on complex workflows combining AI pipelines, SaaS integrations, human approvals, and compensation logic — all with production-grade reliability and SRE-style debugging.
 
 ### 🔋 Tech Stack
