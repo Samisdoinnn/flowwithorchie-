@@ -10,16 +10,17 @@ FlowOrchestrator is a **developer-first visual builder** for durable distributed
 
 ---
 
-## ⭐ Highlights
+## 🌟 Features
 
-* Drag-and-drop visual workflow creation (React Flow)
-* Durable execution with built-in retries & compensation (Temporal)
-* AI automation: Textract OCR + transformer LLMs + schema-validated output
-* Human-in-the-loop approvals using Temporal Signals
-* Real-time observability (traces, logs, variable inspector)
-* Multi-user collaborative editing with CRDT (Yjs)
-* Secure integration token vault + RBAC + audit logs
-* Developer-native: TypeScript workflows, JSON payloads, git-friendly versions
+| Category | Highlights |
+|--------|------------|
+| 🌀 Visual Workflow Builder | Drag-drop nodes • Auto-layout • Smart validation • Versioning |
+| 🤖 AI Tasking | AWS Textract • LLM JSON validation • Prompt templates |
+| 🔄 Durable Execution | Retries • Compensation • Task Queues • Long-running |
+| 🔬 Observability | Gantt traces • Real-time logs • State/time-travel debugging |
+| 🤝 Collaboration | CRDT (Yjs) sync <200ms • Live cursors • Conflict-free |
+| 🔐 Security & Multi-Tenancy | RBAC roles • Token encryption (AES-256+KMS) • Audit log |
+| 📈 SRE-Grade UX | Error budgets • Latency dashboards • Worker health metrics |
 
 ---
 
