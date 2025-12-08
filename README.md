@@ -8,6 +8,30 @@ Absolutely — here is a **single**, **fully-compact**, **copy-paste-ready** REA
 
 FlowOrchestrator is a **developer-first visual builder** for durable distributed automation powered by **Temporal.io**. It allows technical teams to create, observe, and collaborate on complex workflows combining AI pipelines, SaaS integrations, human approvals, and compensation logic — all with production-grade reliability and SRE-style debugging.
 
+### 🔋 Tech Stack
+
+**Frontend**
+<p>
+<img src="https://img.shields.io/badge/React-18-blue?logo=react" />
+<img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript" />
+<img src="https://img.shields.io/badge/Vite-fast-purple?logo=vite" />
+<img src="https://img.shields.io/badge/ReactFlow-Graph-0170FE?logo=react" />
+<img src="https://img.shields.io/badge/TailwindCSS-Design-06B6D4?logo=tailwindcss" />
+<img src="https://img.shields.io/badge/Yjs-CRDT-7F00FF" />
+</p>
+
+**Backend**
+<p>
+<img src="https://img.shields.io/badge/Temporal-Workflows-3448C5?logo=temporal" />
+<img src="https://img.shields.io/badge/NestJS-API-E0234E?logo=nestjs" />
+<img src="https://img.shields.io/badge/Python-AI+Workers-3776AB?logo=python" />
+<img src="https://img.shields.io/badge/Postgres-DB-4169E1?logo=postgresql" />
+<img src="https://img.shields.io/badge/Redis-Cache-D92C2E?logo=redis" />
+<img src="https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?logo=kubernetes" />
+</p>
+
+---
+
 ---
 
 ## 🌟 Features
