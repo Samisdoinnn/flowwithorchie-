@@ -290,8 +290,9 @@ Apache 2.0 — open source friendly & enterprise safe.
 Platform Engineering Team
 Email: (mailto:samdoinndev@gmail.com)**
 
+
 <div align="center">
-  <img height="150" src="https://media.giphy.com/media/3oxHQM2nelb4qWtoje/giphy.gif" />
+  <img height="150" src="https://media.giphy.com/media/5t9IcWn2fmoDDnRcye/giphy.gif" alt="Programming Workflow GIF" />
 </div>
 
 <div align="center">
