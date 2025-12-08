@@ -24,40 +24,6 @@ FlowOrchestrator is a **developer-first visual builder** for durable distributed
 </p>
 
 
-<div class="banner text-glow">
-  <h1>⚡ QuickTasks — Fast & Efficient Task Manager</h1>
-  <p>Organize Effortlessly • Complete Tasks • Save Time</p>
-</div>
-
-<style>
-.text-glow {
-  text-align: center;
-  padding: 100px 20px;
-  background: #0f2027;
-  color: #fff;
-  font-family: 'Verdana', sans-serif;
-}
-
-.text-glow h1 {
-  font-size: 3rem;
-  background: linear-gradient(90deg, #ff6ec4, #42e695, #7873f5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: glow 3s ease-in-out infinite alternate;
-}
-
-.text-glow p {
-  font-size: 1.2rem;
-  margin-top: 15px;
-  color: #cfcfcf;
-}
-
-@keyframes glow {
-  0% { filter: blur(0px); }
-  50% { filter: blur(2px); }
-  100% { filter: blur(0px); }
-}
-</style>
 
 
 **Backend**
