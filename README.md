@@ -12,7 +12,7 @@
   <p>Organize Effortlessly • Complete Tasks • Save Time</p>
 </div>
 
-<style>
+#<style>
 .text-glow {
   text-align: center;
   padding: 100px 20px;
