@@ -257,18 +257,5 @@ Apache 2.0 — open source friendly & enterprise safe.
 ## 👥 Maintainers & Support
 
 Platform Engineering Team
-Email: **[support@yourorg.com](mailto:support@yourorg.com)**
+Email: (mailto:samdoinndev@gmail.com)**
 
----
-
-### 🟢 Final Note
-
-This is a **complete**, **merged**, **single-document** readme representing the entire **FlowOrchestrator PRD v2.0**, including all functional, technical, observability, security, CI/CD, and collaboration elements that were previously scattered.
-
-If you'd like, I can also generate:
-✔ Architecture diagrams (sequence / deployment / flow)
-✔ GitHub Actions, Helm Charts, Infrastructure IaC
-✔ Full `/docs` with onboarding + runbook playbooks
-✔ A short product demo script + screenshots
-
-Would you like **a printable PDF** or **a Notion-ready version** next?
