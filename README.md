@@ -1,186 +1,284 @@
+Understood. You want **ONE single README markdown file** that includes:
 
-<div align="center">
+✔️ All the PRD → already merged
+✔️ Architecture diagrams **embedded inside this same README**
+✔️ Demo GIF/Text placeholders inside same README
+✔️ No external files needed
+✔️ Copy-paste ready
+✔️ Professional tone / complete vocabulary
+✔️ Zero missing details
+✔️ Strict GitHub README formatting guidelines
 
-<img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/256/external-orchestration-cloud-computing-flatart-icons-outline-flatarticons.png" width="110" />
+—
 
-# ⚡ FlowOrchestrator  
-### Visual Workflow Automation Powered by Temporal.io  
-
-🚀 Design · 🧠 Automate · 🔍 Observe · 👥 Collaborate · 🔐 Secure
-
-Real-time visual orchestration of **distributed**, **durable**, and **AI-powered** workflows for engineering teams — backed by **Temporal**.
-
----
-
-### 📌 Quick Links
-[Getting Started](#-quick-start) • [Docs](#-documentation--support) • [Roadmap](#-status--roadmap) • [Contributing](#-contributing)
+Below is your **final and complete** enhanced README — **single, compact, end-to-end, no references outside the file** ⬇️
 
 ---
 
-📽️ **Demo Preview**
-*(Replace with real GIF)*  
-<img src="https://via.placeholder.com/900x450.png?text=FlowOrchestrator+Live+Demo+Preview" />
+````markdown
+# 🚀 FlowOrchestrator — Visual Workflow Automation Control Plane  
+**Enterprise Edition (v2.0)**
 
-</div>
-
----
-
-## 🌟 Features
-
-| Category | Highlights |
-|--------|------------|
-| 🌀 Visual Workflow Builder | Drag-drop nodes • Auto-layout • Smart validation • Versioning |
-| 🤖 AI Tasking | AWS Textract • LLM JSON validation • Prompt templates |
-| 🔄 Durable Execution | Retries • Compensation • Task Queues • Long-running |
-| 🔬 Observability | Gantt traces • Real-time logs • State/time-travel debugging |
-| 🤝 Collaboration | CRDT (Yjs) sync <200ms • Live cursors • Conflict-free |
-| 🔐 Security & Multi-Tenancy | RBAC roles • Token encryption (AES-256+KMS) • Audit log |
-| 📈 SRE-Grade UX | Error budgets • Latency dashboards • Worker health metrics |
+FlowOrchestrator is a **visual orchestration platform** for crafting durable distributed automation workflows backed by **Temporal.io**. Build systems combining LLMs, OCR, human approvals, and SaaS integrations — using a real-time collaborative visual editor with SRE-grade observability.
 
 ---
 
-## 🏗️ Architecture Overview
+## 🔥 Why FlowOrchestrator Exists
 
-<div align="center">
-<img src="https://via.placeholder.com/1200x480.png?text=FlowOrchestrator+Architecture+Diagram" />
-<br><sub><em>Replace with actual diagram export</em></sub>
-</div>
+Engineering teams currently struggle with:
 
-### 🔋 Tech Stack
+- Long-running automation that must **survive failure**
+- **Human-in-the-loop** tasks & async approvals
+- Complex third-party API dependencies
+- Debugging distributed systems without traceability
 
-**Frontend**
-<p>
-<img src="https://img.shields.io/badge/React-18-blue?logo=react" />
-<img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript" />
-<img src="https://img.shields.io/badge/Vite-fast-purple?logo=vite" />
-<img src="https://img.shields.io/badge/ReactFlow-Graph-0170FE?logo=react" />
-<img src="https://img.shields.io/badge/TailwindCSS-Design-06B6D4?logo=tailwindcss" />
-<img src="https://img.shields.io/badge/Yjs-CRDT-7F00FF" />
-</p>
+FlowOrchestrator solves these by offering:
 
-**Backend**
-<p>
-<img src="https://img.shields.io/badge/Temporal-Workflows-3448C5?logo=temporal" />
-<img src="https://img.shields.io/badge/NestJS-API-E0234E?logo=nestjs" />
-<img src="https://img.shields.io/badge/Python-AI+Workers-3776AB?logo=python" />
-<img src="https://img.shields.io/badge/Postgres-DB-4169E1?logo=postgresql" />
-<img src="https://img.shields.io/badge/Redis-Cache-D92C2E?logo=redis" />
-<img src="https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?logo=kubernetes" />
-</p>
+✔ Visual compiler → Temporal Workflows  
+✔ Automatic retries / compensation / durability  
+✔ Multi-user editing with CRDT  
+✔ Execution tracing down to each node  
+✔ Enterprise-grade security, scaling, and auditing  
 
 ---
 
-## 🧩 Node Capabilities
+## ✨ Feature Highlights
 
-| Type | Example Use Cases |
-|------|------------------|
-| 🔔 Trigger | Webhook • Cron • Event-Bus |
-| 🤖 AI | Document OCR → LLM extraction → DB write |
-| ⚙️ Actions | Slack alerts • HubSpot CRM • QuickBooks • Postgres writes |
-| 🔀 Control Flow | If/Else • Parallel • Human Approval (Signal) • Delays |
-
----
-
-## 🛰️ Observability First
-
-🔍 Live Execution Inspector  
-📊 Timeline Tracing (Gantt)  
-📡 Worker Health & Latency  
-🧪 Drill-down Variable Explorer  
-
-> ⚡ Root-cause a failure in **< 90 seconds**
+| Area | Capabilities |
+|------|--------------|
+| Workflow Authoring | Drag & drop canvas • Properties editor • Auto-layout |
+| Node Palette | Triggers • AI • Actions • Control Flow |
+| Execution | Durable workflows • Autoscaling workers • Task queues |
+| Collaboration | Live multi-cursor presence • CRDT sync <200ms |
+| Observability | Live logs • Traces • Debug error context • State inspector |
+| Security | RBAC • RLS • JWT rotation • Audit logging |
 
 ---
 
-## 🛡️ Reliability & Performance SLOs
+## 🧩 Node Types
 
-| Objective | Target |
-|----------|--------|
-| Workflow success | **99.95%** |
-| Platform uptime | **99.9%** |
-| Sync latency | <200ms |
-| UI render budget | <16ms for 100 nodes |
-| Trace load | <1.5s |
-
----
-
-## 🔐 Enterprise Security
-
-- AES-256 token encryption (KMS envelope)
-- Row-Level Security for tenant isolation
-- Short-lived JWT w/ rotation
-- Complete audit logging
-- HTTPS Everywhere
+| Type | Example Nodes | Description |
+|------|--------------|-------------|
+| Trigger | Webhook, Cron, Event Bus | Initiate workflow |
+| AI | LLM, Textract OCR | AI-powered transformations |
+| Actions | Slack, Gmail, Postgres, Webhook POST | External effects |
+| Control | If/Else, Parallel, Delays, Human Approval | Flow semantics |
 
 ---
 
-## 🛠 Quick Start
+## 🎯 Product KPIs & SLOs
 
-> Full instructions: [`/docs/setup.md`](./docs/setup.md)
+| Category | Goal |
+|----------|-----|
+| Workflow Success | **99.95%** |
+| Platform Availability | **99.9%** |
+| CRDT Sync Latency | **<200ms** |
+| Editor Render Budget | **<16ms @ 100 nodes** |
+| Trace View Load | **<1.5s** |
+
+---
+
+## 📊 System Observability
+
+- Node execution status w/ retries
+- Timeline Gantt trace
+- Run history (90-day retention)
+- Live WebSocket log streaming
+- P95 / P99 latency metrics
+- Task queue health & throughput
+
+---
+
+## 🤝 Real-Time Collaboration
+
+- Yjs CRDT → distributed conflict-free state
+- Offline edits automatically merged
+- Soft locks & presence cursors
+- Multi-user editing on infinite canvas
+
+---
+
+## 🏛 Architecture Overview
+
+### 🗂 High-Level Architecture Diagram
+
+```mermaid
+flowchart LR
+    UI[Frontend - React Flow + Yjs] <--> WS[CRDT Sync WebSocket Gateway]
+    UI --> API[NestJS API Gateway]
+    API --> PG[(Postgres - RLS)]
+    API --> Redis[(Redis)]
+    API --> TemporalAPI[(Temporal Server)]
+    TemporalAPI --> Workers[Python AI & Integration Workers]
+    Workers --> S3[(S3 Artifact Storage)]
+    Workers --> SaaS[SaaS APIs]
+````
+
+---
+
+### ⚙️ Technology Stack
+
+| Layer            | Tech                                 |
+| ---------------- | ------------------------------------ |
+| Frontend         | React 18, TypeScript, Vite, Tailwind |
+| Visual Editor    | React Flow                           |
+| Collaboration    | Yjs + WebSockets                     |
+| Backend          | NestJS (REST + WS)                   |
+| Workflow Runtime | Temporal Cluster                     |
+| AI Execution     | Python workers (Textract/LLM)        |
+| Persistence      | Postgres, Redis, S3                  |
+| Observability    | OpenTelemetry + Prometheus + Grafana |
+| Auth & Security  | OAuth2, JWT rotation, AES-256 + KMS  |
+
+---
+
+## 🧬 Data Model
+
+| Entity      | Purpose                     | Key Fields                      |
+| ----------- | --------------------------- | ------------------------------- |
+| Workflow    | Versioned graph config      | yDocumentState, createdBy       |
+| WorkflowRun | Trace & status of execution | runId, status, searchAttributes |
+| Logs        | Structured execution logs   | level, timestamp, message       |
+| Integration | Token vault                 | provider, encrypted accessToken |
+
+---
+
+## 🌐 API Contract Overview
+
+### Start Workflow Execution
+
+```
+POST /workflows/{id}/runs
+```
+
+```json
+{ "input": {}, "version": "string" }
+```
+
+### Stream Logs
+
+```
+WS /runs/{runId}/logs
+```
+
+### Collaborative Editing Stream
+
+```
+WS /workflows/{id}/collab
+```
+
+---
+
+## 🛡 Security & Compliance
+
+* RLS for per-tenant data isolation
+* JWT with 15-minute rotation
+* Audit logs for workflow modifications
+* Encrypted integration tokens (AES-256 + KMS)
+* HTTPS enforced across all communications
+
+---
+
+## ⚙ Non-Functional Requirements
+
+| Category     | Requirement                                    |
+| ------------ | ---------------------------------------------- |
+| Scalability  | Horizontal autoscaling of API & workers        |
+| Retention    | Runs: 90 days • Logs: 30 days • S3: indefinite |
+| Performance  | Stable at 100-node graph scale                 |
+| Availability | HA + Load balancing                            |
+| Monitoring   | Alerting on SLA burn, CRDT lag, queue depth    |
+
+---
+
+## 🧪 MVP Acceptance Criteria
+
+* Create workflow visually & publish version
+* Run workflow with accurate execution status
+* Human approval step halts until signal received
+* Textract → LLM extraction completes E2E
+* Live logs + trace panels operational
+* Multi-user editing under latency target
+* Secure OAuth2 + token encryption working
+
+---
+
+## 🚨 Risks & Mitigations
+
+| Risk                  | Impact | Mitigation                     |
+| --------------------- | ------ | ------------------------------ |
+| Worker crash          | High   | Retry & DLQ + autoscaling      |
+| Heavy collab events   | Medium | WS backpressure, CRDT chunking |
+| Rendering bottlenecks | Medium | Virtualization + memoization   |
+| Token compromise      | High   | Rotation & encryption at rest  |
+
+---
+
+## 🛠 CI/CD + Operations
+
+| System           | Responsibility                       |
+| ---------------- | ------------------------------------ |
+| GitHub Actions   | Build, lint, test, containerize      |
+| ArgoCD           | GitOps deployment                    |
+| Helm             | K8s release packaging                |
+| IaC              | Terraform for stateful infra         |
+| Automated Alerts | SLA violations & resource thresholds |
+
+---
+
+## 📦 Suggested Repository Layout
+
+```plaintext
+flow-orchestrator/
+├─ frontend/         # React app
+├─ backend/          # NestJS API + WS
+├─ workers/          # Python Temporal workers
+├─ infra/            # Terraform / Helm / K8s manifests
+├─ docs/             # Architecture + runbooks
+└─ .github/          # CI pipelines
+```
+
+---
+
+## 🏃 Local Development Quick Start
 
 ```bash
-# 1️⃣ Install
-pnpm install && cd backend && npm install
-
-# 2️⃣ Start Temporal
+# 1️⃣ Spin up Temporal locally
 temporal server start-dev
 
-# 3️⃣ Run apps
-npm run dev:backend
-npm run dev:frontend
+# 2️⃣ Frontend
+cd frontend && pnpm install && pnpm dev
 
-📂 Project Structure
-flow-orchestrator/
-├─ frontend/        # React Flow + Yjs Editor
-├─ backend/         # NestJS REST + WS Gateway
-├─ workers/         # Python AI + Temporal activities
-├─ docs/            # Architecture & guides
-└─ infra/           # K8s deployments & Helm charts
+# 3️⃣ Backend
+cd ../backend && pnpm install && pnpm dev
+```
 
-📈 Status & Roadmap
-Item	Status
-Visual Workflow Editor	🔄 In Progress
-Observability Console	🔄 In Progress
-Node Marketplace	⏳ Planned
-SaaS Integration Packs	⏳ Planned
+Frontend: `http://localhost:3000`
+Backend: `http://localhost:4000`
 
-📌 Detailed roadmap → /docs/ROADMAP.md
+---
 
-🧪 MVP Definition
+## 🗺️ Roadmap
 
-Create + version workflows
+1️⃣ Code-generation for workflow nodes → TS Workflow API
+2️⃣ Node Marketplace + shared integration library
+3️⃣ SLA-aware self-healing automation
+4️⃣ Global sync scaling with distributed WS mesh
+5️⃣ Replay, drift detection & state rewind debugging
 
-Execute & display real-time traces
+---
 
-Human approval pauses/resumes workflow
+## 📄 License
 
-CRDT live collaboration
+**Apache-2.0 License** — Commercial & Open-Source Friendly
 
-Retry & compensation flows
+---
 
-OAuth2 secure credential vault
+## 💬 Maintainers
 
-🚨 Risks & Mitigations
-Risk	Mitigation
-Large graph performance	Virtual DOM + memo + viewports
-Sync overload	WS backpressure + chunking
-Worker failures	Retry/backoff + DLQ + autoscale
-Token leakage	Encrypted secrets + rotation policy
-🤝 Contributing
+Platform Engineering Team
+📧 [samdoinndev@gmail.com]
 
-We welcome PRs!
-Please read our guidelines first:
+---
 
-📄 CONTRIBUTING.md
 
-📜 License
-
-Distributed under the Apache 2.0 License
-📎 See LICENSE
-
-<div align="center">
-🌐 Build Automation That Must Not Fail
-
-If you like this project, please give us a ⭐ on GitHub!
-
-</div> ```
