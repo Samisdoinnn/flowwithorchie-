@@ -290,6 +290,10 @@ Apache 2.0 — open source friendly & enterprise safe.
 
 Platform Engineering Team
 Email: (mailto:samdoinndev@gmail.com)**
+
+<div align="center">
+  <img height="150" src="https://media.giphy.com/media/3oxHQM2nelb4qWtoje/giphy.gif" />
+</div>
 <div align="center">
   <img height="160" src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" />
   <h1>📝 samified — Where Ideas Turn Into Action</h1>
