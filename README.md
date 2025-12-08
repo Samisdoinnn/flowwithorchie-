@@ -1,6 +1,4 @@
-Absolutely — here is a **single**, **fully-compact**, **copy-paste-ready** README that merges **everything** you provided and all enhancements into one document — no placeholders, no missing pieces, no scatter.
 
----
 
 # 🚀 FlowOrchestrator — Visual Workflow Automation Control Plane
 
